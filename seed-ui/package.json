@@ -5,7 +5,8 @@
   "author": "Yasith Lokuge",
   "homepage": "http://www.techsurgeinnovations.com",
   "copyright": "Copyright 2017 techsurgeinnovations",
-  "license": "Apache2.0",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/YasithLokuge/seed-project",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

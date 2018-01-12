@@ -1,5 +1,12 @@
 {
   "name": "seed-core",
+  "version": "1.0.0",
+  "description": "seed-core",
+  "author": "Yasith Lokuge",
+  "homepage": "http://www.techsurgeinnovations.com",
+  "copyright": "Copyright 2017 techsurgeinnovations",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/YasithLokuge/seed-project",
   "dependencies": {
     "body-parser": "^1.14.1",
     "config": "^1.16.0",

@@ -9,8 +9,8 @@ app.use(bodyParser.json());
 GET Request
 Post Request
 */
-var contacts = require('./modules/routes/contacts.js');
-app.use('/api/v1', contacts);
+var authResources = require('./modules/routes/AuthResources.js');
+app.use('/api/v1', authResources);
 
 logger.info('Starting the server');
 
