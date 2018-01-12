@@ -15,7 +15,7 @@ app.use('/api/v1', authResources);
 
 logger.info('Starting the server');
 logger.info('NODE_ENV: ' + config.util.getEnv('NODE_ENV'));
-logger.info('Key: ' + config.get('key'));
+logger.info('Key: ' + config.get('jwt.jwtKey'));
 
 var server = app.listen(3000, function(){
 	logger.info('Server started...');

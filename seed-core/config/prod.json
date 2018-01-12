@@ -1,6 +1,15 @@
 {
-	"Logger":{
-		"logFile":"/tmp/seed-core.log"
+	"Logger" :{
+		"logFile" :"/tmp/seed-core-dev.log"
 	},
-	"key" : "default-key"
+	"jwt" :{
+		"jwksUri" :"https://yasithlokuge.auth0.com/.well-known/jwks.json",
+		"audience" :"http://localhost:3000/api/v1",
+		"issuer" :"https://yasithlokuge.auth0.com/",
+		"jwtKey" : "prod-key",
+		"algorithms" : ["RS256"],
+		"cache" : true,
+		"rateLimit" : true,
+		"jwksRequestsPerMinute" : 5
+	}
 }

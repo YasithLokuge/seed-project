@@ -1,3 +1,5 @@
 {
-  "key": "KEY"
+  "jwt": {
+    "jwtKey": "KEY"
+  }
 }
