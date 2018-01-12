@@ -1,5 +1,6 @@
 {
-"Logger":{
-	"logFile":"/tmp/seed-core-dev.log"
-}
+	"Logger":{
+		"logFile":"/tmp/seed-core-dev.log"
+	},
+	"key" : "dev-key"
 }

@@ -1,0 +1,6 @@
+{
+	"Logger":{
+		"logFile":"/tmp/seed-core.log"
+	},
+	"key" : "default-key"
+}

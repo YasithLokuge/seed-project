@@ -4,19 +4,19 @@ var logger= require('../utils/logger.js');
 var jwt = require('express-jwt');
 var jwks = require('jwks-rsa');
 
-var jwtCheck = jwt({
-    secret: jwks.expressJwtSecret({
-        cache: true,
-        rateLimit: true,
-        jwksRequestsPerMinute: 5,
-        jwksUri: ""
-    }),
-    audience: '',
-    issuer: "",
-    algorithms: ['RS256']
-});
-
-router.use(jwtCheck);
+// var jwtCheck = jwt({
+//     secret: jwks.expressJwtSecret({
+//         cache: true,
+//         rateLimit: true,
+//         jwksRequestsPerMinute: 5,
+//         jwksUri: ""
+//     }),
+//     audience: '',
+//     issuer: "",
+//     algorithms: ['RS256']
+// });
+//
+// router.use(jwtCheck);
 
 
 //GET request
